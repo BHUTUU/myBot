@@ -1,9 +1,3 @@
-#!/usr/bin/env bash
-#CORE Authored by: @Pero_Sar1111
-#Post authored by Suman Kumar ~BHUTUU
-# shellcheck disable=SC2207
-# shellcheck source=/dev/null
-
 R="\e[1;31m"
 G="\e[1;32m"
 Y="\e[1;33m"
