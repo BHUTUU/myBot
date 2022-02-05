@@ -1,2 +1,4 @@
 requests
 argparse
+telegram
+python-telegram-bot
