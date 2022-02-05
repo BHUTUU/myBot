@@ -1,1 +1,1 @@
-worker: bash bhutuu_bot.sh
+worker: python main.py

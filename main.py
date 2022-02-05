@@ -4,7 +4,6 @@ from telegram.ext.callbackcontext import CallbackContext
 from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
-import requests, os
 #<<<======Variable Declaration========>>>#
 TOKEN="1963665302:AAFKNH7N7LBZpdQAsZKi-RVXgDqB1w1oosU"
 updater = Updater(TOKEN, use_context=True)
