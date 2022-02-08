@@ -18,6 +18,7 @@ command             usage
 /youtube     |- BHUTUU's youtube
 /webclock  |- To open WebClock
 /calculator |- To open calculator
+/batteryWeb |- To see battery%
 /star            |- To see stars ;)
 ______________________________________
 """
@@ -43,6 +44,8 @@ def shootingStar_url(update: Update, context: CallbackContext):
     update.message.reply_text("""bhutuu.github.io/shootingStar""")
 def clockGui_url(update: Update, context: CallbackContext):
     update.message.reply_text("""bhutuu.github.io/clockgui""")
+def batteryWeb_url(update: Update, context: CallbackContext):
+    update.message.reply_text("""bhutuu.github.io/batteryWebpage""")
 #def unknown(update: Update, context: CallbackContext):
 #    update.message.reply_text("""Sorry '%s' is not a valid command""" % update.message.text)
 #def unknown_text(update: Update, context: CallbackContext):
@@ -54,6 +57,7 @@ updater.dispatcher.add_handler(CommandHandler('website', website_url))
 updater.dispatcher.add_handler(CommandHandler('github', github_url))
 updater.dispatcher.add_handler(CommandHandler('star', shootingStar_url))
 updater.dispatcher.add_handler(CommandHandler('webclock', clockGui_url))
+updater.dispatcher.add_handler(CommandHandler('batteryWeb', batteryWeb_url))
 updater.dispatcher.add_handler(CommandHandler('calculator', calculator_url))
 #updater.dispatcher.add_handler(MessageHandler(Filters.text, unknown))
 #updater.dispatcher.add_handler(MessageHandler(Filters.command, unknown))
