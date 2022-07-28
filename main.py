@@ -5,7 +5,7 @@ from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
 #<<<======Variable Declaration========>>>#
-TOKEN="1963665302:AAFKNH7N7LBZpdQAsZKi-RVXgDqB1w1oosU"
+TOKEN="1963665302:AAGgrhiz8hrenBJzOLitxpkNZ1ayLyH6850"
 updater = Updater(TOKEN, use_context=True)
 #replies:-
 helpText="""
